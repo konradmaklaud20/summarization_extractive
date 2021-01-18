@@ -1,3 +1,7 @@
+import nltk
+from summarizer import Summarizer
+from transformers import *
+
 get_value = get_value.dict() # данные из request.POST
         
 text = get_value['t']
