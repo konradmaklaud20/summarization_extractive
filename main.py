@@ -3,9 +3,7 @@ get_value = get_value.dict() # данные из request.POST
 text = get_value['t']
 name = get_value['n']
 number = get_value['s']
-#size = int(len(nltk.sent_tokenize(text))//float(number))
 n = int(len(nltk.sent_tokenize(text)))
-# print(n)
 size1 = int(round(n*(float(number)/100)) + 1)
 size = int((n - size1) + 1)
 if name == 'gpt':
