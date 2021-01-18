@@ -1,1 +1,1 @@
-# summarization_extractive
+# Экстрактивная суммаризация текста 
